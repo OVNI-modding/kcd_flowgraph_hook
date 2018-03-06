@@ -5,7 +5,7 @@ This mod for Kingdom Come: Deliverance allows multiple mods to start flownodes o
 Why this mod ?
 ==============
 CryEngine activates only one flownode when the game starts: Sys_StateControl.xml.
-So any mod that'd like to launch a flowgraph we game starts would have to override it. Problem: only one mod can do so.
+So any mod that'd like to launch a flowgraph when game starts would have to override it. Problem: only one mod can do so.
 kcd_flowgraph_hook allows up to 999 mods to launch a flowgraph when game starts.
 
 How it works
