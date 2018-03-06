@@ -1,0 +1,339 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <Nodes>
+  <Node Id="8" Class="UI:Action:Control" pos="-1860,3240,0">
+   <Inputs uiActions_UIAction="hud_horsedialog" Strict="0" Args=""/>
+  </Node>
+  <Node Id="17" Class="UI:Events:book:OnBookPosition" pos="-2240,4280,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="18" Class="UI:Functions:MinigameElements:OnBookPosition" pos="-1840,4280,0" flags="0">
+   <Inputs isPrev="0" isNext="0"/>
+  </Node>
+  <Node Id="59" Class="UI:Events:MainMenu:OnSound" pos="-2240,3980,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="68" Class="UI:Events:MenuEvents:OnOpenInventory" pos="-2240,3540,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="69" Name="Sound_events" Class="_commentbox" pos="-2300,3882.9563,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="240"/>
+   <NodeSize Width="820" Height="274.43478"/>
+  </Node>
+  <Node Id="73" Name="Inventory_events" Class="_commentbox" pos="-2300,3443.7322,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="380"/>
+   <NodeSize Width="820" Height="414.43478"/>
+  </Node>
+  <Node Id="81" Class="UI:Action:Control" pos="-1860,3540,0">
+   <Inputs uiActions_UIAction="IGM_Inventory" Strict="0" Args=""/>
+  </Node>
+  <Node Id="95" Class="Audio:Trigger" pos="-1840,3980,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="" audioTrigger_StopTrigger="do_nothing"/>
+  </Node>
+  <Node Id="414" Class="Variables:GlobalVariable" pos="-1460,1960,0" flags="0">
+   <Inputs Name="health" Value="1"/>
+  </Node>
+  <Node Id="415" Class="Logic:Signal" pos="-1230,1960,0" flags="0">
+   <Inputs Id="HealthtUpdate"/>
+  </Node>
+  <Node Id="448" Class="UI:Functions:Inventory:SetInventoryTab" pos="-1860,3700,0">
+   <Inputs instanceID="-1" TabId="0" IsLast="0"/>
+  </Node>
+  <Node Id="450" Class="UI:Events:InventoryActions:OpenInventoryTab" pos="-2240,3700,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="599" Class="Audio:Trigger" pos="-1840,4640,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="" audioTrigger_StopTrigger="do_nothing"/>
+  </Node>
+  <Node Id="640" Name="Starting_Game" Class="_commentbox" pos="-2300,1243.7318,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1520" Height="420"/>
+   <NodeSize Width="1520" Height="454.43478"/>
+  </Node>
+  <Node Id="642" Name="Loading_saved_game" Class="_commentbox" pos="-2300,2183.7322,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1550" Height="420"/>
+   <NodeSize Width="1550" Height="454.43478"/>
+  </Node>
+  <Node Id="644" Name="TODO:_move_to_invetory_action" Class="_comment" pos="-2240,3780,0"/>
+  <Node Id="660" Class="UI:Events:MenuEvents:OnStartIngameMenu" pos="-2286,2934,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="665" Name="Menu_events" Class="_commentbox" pos="-2300,2663.7317,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="420"/>
+   <NodeSize Width="820" Height="454.43478"/>
+  </Node>
+  <Node Id="674" Class="UI:Action:Control" pos="-1860,1820,0">
+   <Inputs uiActions_UIAction="HUD" Strict="0" Args=""/>
+  </Node>
+  <Node Id="675" Class="Game:Start" pos="-2240,1820,0">
+   <Inputs InGame="0" InEditor="1"/>
+  </Node>
+  <Node Id="677" Name="Starting_Gamemode_in_Editor" Class="_commentbox" pos="-2300,1723.7318,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1270" Height="400"/>
+   <NodeSize Width="1270" Height="434.43478"/>
+  </Node>
+  <Node Id="696" Class="UI:Events:MenuEvents:OnStartMainMenu" pos="-2268,2772,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="707" Class="UI:Events:HUDElements:HorseInspect" pos="-2240,3240,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="744" Class="UI:Events:System:OnSystemStarted" pos="-2268,1332,0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="807" Class="Variables:GlobalVariable" pos="-1860,2000,0" flags="0">
+   <Inputs Name="g_IsRepeatedNewGame" Value="1"/>
+  </Node>
+  <Node Id="818" Class="UI:Events:PickpocketEvents:OnStartPickpocketing" pos="-2240,4490,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="827" Class="UI:Events:Pickpocket:OnSound" pos="-2220,4660,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="829" Class="UI:Action:Control" pos="-1818,2934,0">
+   <Inputs uiActions_UIAction="MM_IngameMenu" Strict="0" Args=""/>
+  </Node>
+  <Node Id="830" Class="UI:Action:Control" pos="-1800,2754,0">
+   <Inputs uiActions_UIAction="MM_Main" Strict="0" Args=""/>
+  </Node>
+  <Node Id="831" Class="UI:Events:Pickpocket:OnSoundLoopPlay" pos="-1460,4500,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="832" Class="UI:Events:Pickpocket:OnSoundLoopStop" pos="-1460,4590,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="834" Class="UI:Events:System:OnQuickLoadingStart" pos="-2240,2280,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="835" Class="UI:Action:Control" pos="-1872,2286,0">
+   <Inputs uiActions_UIAction="SYS_LoadingImageScreen" Strict="0" Args=""/>
+  </Node>
+  <Node Id="837" Class="UI:Action:Control" pos="-1840,4490,0">
+   <Inputs uiActions_UIAction="hud_pickpocketing" Strict="0" Args=""/>
+  </Node>
+  <Node Id="838" Name="Pickpocketing_minigame" Class="_commentbox" pos="-2300,4435.0313,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1580" Height="320"/>
+   <NodeSize Width="1580" Height="354.43478"/>
+  </Node>
+  <Node Id="839" Name="Book_minigame" Class="_commentbox" pos="-2300,4183.7305,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="220"/>
+   <NodeSize Width="820" Height="254.43478"/>
+  </Node>
+  <Node Id="840" Name="HorseInspect" Class="_commentbox" pos="-2300,3143.7322,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="240"/>
+   <NodeSize Width="820" Height="274.43478"/>
+  </Node>
+  <Node Id="875" Class="UI:Action:Control" pos="-1850,5630,0">
+   <Inputs uiActions_UIAction="hud_helpscreen" Strict="0" Args=""/>
+  </Node>
+  <Node Id="885" Class="UI:Events:System:OnLoadingStart" pos="-2240,2460,0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="886" Class="UI:Action:Control" pos="-1872,2466,0">
+   <Inputs uiActions_UIAction="SYS_LoadingVideoScreen" Strict="0" Args=""/>
+  </Node>
+  <Node Id="887" Class="UI:Action:Control" pos="-1620,1332,0">
+   <Inputs uiActions_UIAction="SYS_Startup" Strict="0" Args=""/>
+  </Node>
+  <Node Id="901" Class="Logic:Condition" pos="-1880,1340,0">
+   <Inputs Condition="0"/>
+  </Node>
+  <Node Id="904" Name="Force_fast_travel" Class="_commentbox" pos="-2760,4765.0288,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="1280" Height="740"/>
+   <NodeSize Width="1280" Height="774.43475"/>
+  </Node>
+  <Node Id="905" Class="UI:Functions:Inventory:ForceFastTravel" pos="-1770,5370,0">
+   <Inputs instanceID="-1" Name="forceFastTravel" xPos="0" yPos="0" zPos="0"/>
+  </Node>
+  <Node Id="906" Class="UI:Action:Control" pos="-1790,4960,0">
+   <Inputs uiActions_UIAction="IGM_Inventory" Strict="0" Args=""/>
+  </Node>
+  <Node Id="912" Class="UI:Functions:Inventory:SetInventoryTab" pos="-1780,5100,0">
+   <Inputs instanceID="-1" TabId="4" IsLast="0"/>
+  </Node>
+  <Node Id="914" Class="UI:Events:Inventory:OnMapMarksPosition" pos="-2280,5240,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="916" Class="Logic:Condition" pos="-1960,5230,0">
+   <Inputs Condition="0"/>
+  </Node>
+  <Node Id="918" Class="UI:Events:Map:OnForceStartFastTravel" pos="-2740,5170,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="922" Class="Vec3:FromVec3" pos="-1930,5420,0">
+   <Inputs vec3="0,0,0"/>
+  </Node>
+  <Node Id="923" Class="UI:Util:ToArray" pos="-2160,4900,0">
+   <Inputs Count="4"/>
+  </Node>
+  <Node Id="925" Class="UI:Util:ToArray" pos="-2160,5050,0">
+   <Inputs Count="4"/>
+  </Node>
+  <Node Id="926" Class="String:SetString" pos="-2350,4830,0">
+   <Inputs In="1"/>
+  </Node>
+  <Node Id="928" Class="String:SetString" pos="-2450,4900,0">
+   <Inputs In="w0000000000000000"/>
+  </Node>
+  <Node Id="929" Class="UI:Util:MergeArrays" pos="-1970,5000,0">
+   <Inputs Array1="" Array2=""/>
+  </Node>
+  <Node Id="930" Class="UI:Action:Control" pos="-1620,1520,0">
+   <Inputs uiActions_UIAction="SYS_StartupDebug" Strict="0" Args=""/>
+  </Node>
+  <Node Id="931" Class="Audio:Trigger" pos="-1110,4520,0">
+   <Inputs entityId="0" audioTrigger_PlayTrigger="" audioTrigger_StopTrigger=""/>
+  </Node>
+  <Node Id="932" Class="Audio:Rtpc" pos="-1120,4680,0">
+   <Inputs entityId="0" audioRTPC_Name="" value="0"/>
+  </Node>
+  <Node Id="933" Class="UI:Events:Pickpocket:OnSoundLoopValue" pos="-1470,4680,0">
+   <Inputs instanceID="-1" Port="-1" Idx=""/>
+  </Node>
+  <Node Id="934" Class="UI:Events:HUDElements:ShowHelpScreen" pos="-2200,5630,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="935" Name="Help_screens" Class="_commentbox" pos="-2300,5545.0303,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="210"/>
+   <NodeSize Width="820" Height="244.43478"/>
+  </Node>
+  <Node Id="936" Class="UI:Action:Control" pos="-1460,1790,0">
+   <Inputs uiActions_UIAction="health_stamina" Strict="0" Args=""/>
+  </Node>
+  <Node Id="937" Class="Variables:GlobalVariable" pos="-1220,1480,0" flags="0">
+   <Inputs Name="health" Value="1"/>
+  </Node>
+  <Node Id="938" Class="Logic:Signal" pos="-990,1480,0" flags="0">
+   <Inputs Id="HealthtUpdate"/>
+  </Node>
+  <Node Id="939" Class="UI:Action:Control" pos="-1220,1350,0">
+   <Inputs uiActions_UIAction="health_stamina" Strict="0" Args=""/>
+  </Node>
+  <Node Id="942" Class="UI:Action:Control" pos="-1190,2290,0">
+   <Inputs uiActions_UIAction="health_stamina" Strict="0" Args=""/>
+  </Node>
+  <Node Id="944" Class="Logic:Any" pos="-1370,2320,0">
+   <Inputs />
+  </Node>
+  <Node Id="945" Class="Variables:GlobalVariable" pos="-1220,1590,0" flags="0">
+   <Inputs Name="owlBrightness" Value="0"/>
+  </Node>
+  <Node Id="946" Class="Logic:Signal" pos="-960,1590,0" flags="0">
+   <Inputs Id="OwlUpdate"/>
+  </Node>
+  <Node Id="947" Class="Variables:GlobalVariable" pos="-1460,2060,0" flags="0">
+   <Inputs Name="owlBrightness" Value="0"/>
+  </Node>
+  <Node Id="948" Class="Logic:Signal" pos="-1200,2060,0" flags="0">
+   <Inputs Id="OwlUpdate"/>
+  </Node>
+  <Node Id="949" Class="Variables:GlobalVariable" pos="-1200,2530,0" flags="0">
+   <Inputs Name="owlBrightness" Value="0"/>
+  </Node>
+  <Node Id="950" Class="Logic:Signal" pos="-940,2530,0" flags="0">
+   <Inputs Id="OwlUpdate"/>
+  </Node>
+  <Node Id="951" Class="UI:Action:Control" pos="-1850,5910,0">
+   <Inputs uiActions_UIAction="MM_SwitchUser" Strict="0" Args=""/>
+  </Node>
+  <Node Id="953" Name="XBOX_Switch_user" Class="_commentbox" pos="-2300,5825.0303,0">
+   <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+   <ResizeBorder X="0" Y="0" Width="820" Height="210"/>
+   <NodeSize Width="820" Height="244.43478"/>
+  </Node>
+  <Node Id="954" Class="UI:Events:MenuEvents:OnSwitchUser" pos="-2200,5910,0" flags="0">
+   <Inputs Port="-1" Idx=""/>
+  </Node>
+  <Node Id="955" Class="UI:Action:Control" pos="-1206,2700,0">
+   <Inputs uiActions_UIAction="SYS_Main" Strict="0" Args=""/>
+  </Node>
+  <Node Id="956" Class="Debug:Log" pos="-1224,2862,0">
+   <Inputs message="[FlowgraphHook] Starting SYS_Main"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="18" nodeOut="17" portIn="isNext" portOut="isNext" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="17" portIn="isPrev" portOut="isPrev" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="17" portIn="send" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="95" nodeOut="59" portIn="Play" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="95" nodeOut="59" portIn="audioTrigger_PlayTrigger" portOut="soundName" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="68" portIn="Args" portOut="Array" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="68" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="415" nodeOut="414" portIn="Send" portOut="CurValue" enabled="1"/>
+  <Edge nodeIn="448" nodeOut="450" portIn="IsLast" portOut="IsLast" enabled="1"/>
+  <Edge nodeIn="448" nodeOut="450" portIn="TabId" portOut="TabId" enabled="1"/>
+  <Edge nodeIn="448" nodeOut="450" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="829" nodeOut="660" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="414" nodeOut="675" portIn="Set" portOut="output" enabled="1"/>
+  <Edge nodeIn="674" nodeOut="675" portIn="Start" portOut="output" enabled="1"/>
+  <Edge nodeIn="807" nodeOut="675" portIn="Set" portOut="output" enabled="1"/>
+  <Edge nodeIn="936" nodeOut="675" portIn="Start" portOut="output" enabled="1"/>
+  <Edge nodeIn="947" nodeOut="675" portIn="Set" portOut="output" enabled="1"/>
+  <Edge nodeIn="830" nodeOut="696" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="707" portIn="Args" portOut="HorseEntityId" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="707" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="901" nodeOut="744" portIn="Condition" portOut="AutoLevelLoad" enabled="1"/>
+  <Edge nodeIn="901" nodeOut="744" portIn="In" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="937" nodeOut="744" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="939" nodeOut="744" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="945" nodeOut="744" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="837" nodeOut="818" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="599" nodeOut="827" portIn="audioTrigger_PlayTrigger" portOut="Event" enabled="1"/>
+  <Edge nodeIn="599" nodeOut="827" portIn="Play" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="931" nodeOut="831" portIn="audioTrigger_PlayTrigger" portOut="Event" enabled="1"/>
+  <Edge nodeIn="931" nodeOut="831" portIn="Play" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="931" nodeOut="832" portIn="Stop" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="835" nodeOut="834" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="944" nodeOut="834" portIn="in1" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="886" nodeOut="885" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="944" nodeOut="885" portIn="in2" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="955" nodeOut="886" portIn="Start" portOut="OnEnd" enabled="1"/>
+  <Edge nodeIn="956" nodeOut="886" portIn="input" portOut="OnEnd" enabled="1"/>
+  <Edge nodeIn="887" nodeOut="901" portIn="Start" portOut="OnFalse" enabled="1"/>
+  <Edge nodeIn="930" nodeOut="901" portIn="Start" portOut="OnTrue" enabled="1"/>
+  <Edge nodeIn="916" nodeOut="905" portIn="CondFalse" portOut="OnCall" enabled="1"/>
+  <Edge nodeIn="916" nodeOut="914" portIn="In" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="905" nodeOut="916" portIn="Call" portOut="OnTrue" enabled="1"/>
+  <Edge nodeIn="912" nodeOut="918" portIn="Call" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="916" nodeOut="918" portIn="CondTrue" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="922" nodeOut="918" portIn="vec3" portOut="Pos" enabled="1"/>
+  <Edge nodeIn="925" nodeOut="918" portIn="Val1" portOut="PlayerId" enabled="1"/>
+  <Edge nodeIn="926" nodeOut="918" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="928" nodeOut="918" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="905" nodeOut="922" portIn="xPos" portOut="x" enabled="1"/>
+  <Edge nodeIn="905" nodeOut="922" portIn="yPos" portOut="y" enabled="1"/>
+  <Edge nodeIn="905" nodeOut="922" portIn="zPos" portOut="z" enabled="1"/>
+  <Edge nodeIn="925" nodeOut="923" portIn="Set" portOut="OnSet" enabled="1"/>
+  <Edge nodeIn="929" nodeOut="923" portIn="Array1" portOut="Array" enabled="1"/>
+  <Edge nodeIn="929" nodeOut="925" portIn="Array2" portOut="Array" enabled="1"/>
+  <Edge nodeIn="929" nodeOut="925" portIn="Merge" portOut="OnSet" enabled="1"/>
+  <Edge nodeIn="923" nodeOut="926" portIn="Val1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="923" nodeOut="928" portIn="Set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="923" nodeOut="928" portIn="Val2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="923" nodeOut="928" portIn="Val3" portOut="Out" enabled="1"/>
+  <Edge nodeIn="923" nodeOut="928" portIn="Val4" portOut="Out" enabled="1"/>
+  <Edge nodeIn="906" nodeOut="929" portIn="Args" portOut="Array" enabled="1"/>
+  <Edge nodeIn="906" nodeOut="929" portIn="Start" portOut="OnMerge" enabled="1"/>
+  <Edge nodeIn="932" nodeOut="933" portIn="audioRTPC_Name" portOut="Event" enabled="1"/>
+  <Edge nodeIn="932" nodeOut="933" portIn="value" portOut="Value" enabled="1"/>
+  <Edge nodeIn="875" nodeOut="934" portIn="Args" portOut="name" enabled="1"/>
+  <Edge nodeIn="875" nodeOut="934" portIn="Start" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="938" nodeOut="937" portIn="Send" portOut="CurValue" enabled="1"/>
+  <Edge nodeIn="942" nodeOut="944" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="949" nodeOut="944" portIn="Set" portOut="out" enabled="1"/>
+  <Edge nodeIn="946" nodeOut="945" portIn="Send" portOut="CurValue" enabled="1"/>
+  <Edge nodeIn="948" nodeOut="947" portIn="Send" portOut="CurValue" enabled="1"/>
+  <Edge nodeIn="950" nodeOut="949" portIn="Send" portOut="CurValue" enabled="1"/>
+  <Edge nodeIn="951" nodeOut="954" portIn="Start" portOut="onEvent" enabled="1"/>
+ </Edges>
+ <GraphTokens />
+</Graph>
