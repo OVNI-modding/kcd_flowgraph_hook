@@ -33,6 +33,7 @@ zout.close()
 zout = zipfile.ZipFile( os.path.join(outputDir, zipFilename), 'w', compression=zipfile.ZIP_DEFLATED )
 
 zout.write('README.md')
+zout.write('LICENSE')
 zout.writestr( os.path.join('Data', gamePackageName), gamePackage.getvalue() )
 
 zout.close()
