@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.6
 
-version='1.0.0'
+version='1.0.1'
 name='kcd_flowgraph_hook'
 packagePrefix='zzzzzz_'
 outputDir='builds'
