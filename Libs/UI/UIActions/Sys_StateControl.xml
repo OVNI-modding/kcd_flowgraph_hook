@@ -1,4 +1,4 @@
-<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+<Graph Description="" Group="flowgraph_hook" enabled="1" MultiPlayer="ClientServer">
  <Nodes>
   <Node Id="8" Class="UI:Action:Control" pos="-1860,3240,0">
    <Inputs uiActions_UIAction="hud_horsedialog" Strict="0" Args=""/>
@@ -15,15 +15,15 @@
   <Node Id="68" Class="UI:Events:MenuEvents:OnOpenInventory" pos="-2240,3540,0" flags="0">
    <Inputs Port="-1" Idx=""/>
   </Node>
-  <Node Id="69" Name="Sound_events" Class="_commentbox" pos="-2300,3837.1101,0">
+  <Node Id="69" Name="Sound_events" Class="_commentbox" pos="-2300,3859.9094,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="240"/>
-   <NodeSize Width="820" Height="320.28125"/>
+   <NodeSize Width="820" Height="297.48062"/>
   </Node>
-  <Node Id="73" Name="Inventory_events" Class="_commentbox" pos="-2300,3397.886,0">
+  <Node Id="73" Name="Inventory_events" Class="_commentbox" pos="-2300,3420.6853,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="380"/>
-   <NodeSize Width="820" Height="460.28125"/>
+   <NodeSize Width="820" Height="437.48062"/>
   </Node>
   <Node Id="81" Class="UI:Action:Control" pos="-1860,3540,0">
    <Inputs uiActions_UIAction="IGM_Inventory" Strict="0" Args=""/>
@@ -46,24 +46,24 @@
   <Node Id="599" Class="Audio:Trigger" pos="-1840,4640,0">
    <Inputs entityId="0" audioTrigger_PlayTrigger="" audioTrigger_StopTrigger="do_nothing"/>
   </Node>
-  <Node Id="640" Name="Starting_Game" Class="_commentbox" pos="-2300,1197.8856,0">
+  <Node Id="640" Name="Starting_Game" Class="_commentbox" pos="-2300,1220.6865,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="1520" Height="420"/>
-   <NodeSize Width="1520" Height="500.28125"/>
+   <NodeSize Width="1520" Height="477.48062"/>
   </Node>
-  <Node Id="642" Name="Loading_saved_game" Class="_commentbox" pos="-2300,2137.886,0">
+  <Node Id="642" Name="Loading_saved_game" Class="_commentbox" pos="-2300,2160.6853,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="1550" Height="420"/>
-   <NodeSize Width="1550" Height="500.28125"/>
+   <NodeSize Width="1550" Height="477.48062"/>
   </Node>
   <Node Id="644" Name="TODO:_move_to_invetory_action" Class="_comment" pos="-2240,3780,0"/>
   <Node Id="660" Class="UI:Events:MenuEvents:OnStartIngameMenu" pos="-2286,2934,0" flags="0">
    <Inputs Port="-1" Idx=""/>
   </Node>
-  <Node Id="665" Name="Menu_events" Class="_commentbox" pos="-2300,2617.8855,0">
+  <Node Id="665" Name="Menu_events" Class="_commentbox" pos="-2300,2640.6848,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="420"/>
-   <NodeSize Width="820" Height="500.28125"/>
+   <NodeSize Width="820" Height="477.48062"/>
   </Node>
   <Node Id="674" Class="UI:Action:Control" pos="-1860,1820,0">
    <Inputs uiActions_UIAction="HUD" Strict="0" Args=""/>
@@ -71,10 +71,10 @@
   <Node Id="675" Class="Game:Start" pos="-2240,1820,0">
    <Inputs InGame="0" InEditor="1"/>
   </Node>
-  <Node Id="677" Name="Starting_Gamemode_in_Editor" Class="_commentbox" pos="-2300,1677.8856,0">
+  <Node Id="677" Name="Starting_Gamemode_in_Editor" Class="_commentbox" pos="-2300,1700.6864,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="1270" Height="400"/>
-   <NodeSize Width="1270" Height="480.28125"/>
+   <NodeSize Width="1270" Height="457.48062"/>
   </Node>
   <Node Id="696" Class="UI:Events:MenuEvents:OnStartMainMenu" pos="-2268,2772,0" flags="0">
    <Inputs Port="-1" Idx=""/>
@@ -115,20 +115,20 @@
   <Node Id="837" Class="UI:Action:Control" pos="-1840,4490,0">
    <Inputs uiActions_UIAction="hud_pickpocketing" Strict="0" Args=""/>
   </Node>
-  <Node Id="838" Name="Pickpocketing_minigame" Class="_commentbox" pos="-2300,4389.1841,0">
+  <Node Id="838" Name="Pickpocketing_minigame" Class="_commentbox" pos="-2300,4411.9863,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="1580" Height="320"/>
-   <NodeSize Width="1580" Height="400.28125"/>
+   <NodeSize Width="1580" Height="377.48062"/>
   </Node>
-  <Node Id="839" Name="Book_minigame" Class="_commentbox" pos="-2300,4137.8833,0">
+  <Node Id="839" Name="Book_minigame" Class="_commentbox" pos="-2300,4160.6846,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="220"/>
-   <NodeSize Width="820" Height="300.28125"/>
+   <NodeSize Width="820" Height="277.48062"/>
   </Node>
-  <Node Id="840" Name="HorseInspect" Class="_commentbox" pos="-2300,3097.886,0">
+  <Node Id="840" Name="HorseInspect" Class="_commentbox" pos="-2300,3120.6853,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="240"/>
-   <NodeSize Width="820" Height="320.28125"/>
+   <NodeSize Width="820" Height="297.48062"/>
   </Node>
   <Node Id="875" Class="UI:Action:Control" pos="-1850,5630,0">
    <Inputs uiActions_UIAction="hud_helpscreen" Strict="0" Args=""/>
@@ -145,10 +145,10 @@
   <Node Id="901" Class="Logic:Condition" pos="-1880,1340,0">
    <Inputs Condition="0"/>
   </Node>
-  <Node Id="904" Name="Force_fast_travel" Class="_commentbox" pos="-2760,4719.1821,0">
+  <Node Id="904" Name="Force_fast_travel" Class="_commentbox" pos="-2760,4741.9854,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="1280" Height="740"/>
-   <NodeSize Width="1280" Height="820.28125"/>
+   <NodeSize Width="1280" Height="797.48059"/>
   </Node>
   <Node Id="905" Class="UI:Functions:Inventory:ForceFastTravel" pos="-1770,5370,0">
    <Inputs instanceID="-1" Name="forceFastTravel" xPos="0" yPos="0" zPos="0"/>
@@ -201,10 +201,10 @@
   <Node Id="934" Class="UI:Events:HUDElements:ShowHelpScreen" pos="-2200,5630,0" flags="0">
    <Inputs Port="-1" Idx=""/>
   </Node>
-  <Node Id="935" Name="Help_screens" Class="_commentbox" pos="-2300,5499.1836,0">
+  <Node Id="935" Name="Help_screens" Class="_commentbox" pos="-2300,5521.9854,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="210"/>
-   <NodeSize Width="820" Height="290.28125"/>
+   <NodeSize Width="820" Height="267.48062"/>
   </Node>
   <Node Id="936" Class="UI:Action:Control" pos="-1460,1790,0">
    <Inputs uiActions_UIAction="health_stamina" Strict="0" Args=""/>
@@ -245,10 +245,10 @@
   <Node Id="951" Class="UI:Action:Control" pos="-1850,5910,0">
    <Inputs uiActions_UIAction="MM_SwitchUser" Strict="0" Args=""/>
   </Node>
-  <Node Id="953" Name="XBOX_Switch_user" Class="_commentbox" pos="-2300,5779.1836,0">
+  <Node Id="953" Name="XBOX_Switch_user" Class="_commentbox" pos="-2300,5801.9854,0">
    <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
    <ResizeBorder X="0" Y="0" Width="820" Height="210"/>
-   <NodeSize Width="820" Height="290.28125"/>
+   <NodeSize Width="820" Height="267.48062"/>
   </Node>
   <Node Id="954" Class="UI:Events:MenuEvents:OnSwitchUser" pos="-2200,5910,0" flags="0">
    <Inputs Port="-1" Idx=""/>
@@ -262,11 +262,23 @@
   <Node Id="958" Class="Mission:GameTokenSet" pos="-702,2844,0">
    <Inputs gametoken_Token="sys_main_started" Value="1"/>
   </Node>
-  <Node Id="959" Class="Mission:GameTokenGet" pos="-1368,2772,0">
+  <Node Id="959" Class="Mission:GameTokenGet" pos="-1386,2808,0">
    <Inputs gametoken_Token="sys_main_started"/>
   </Node>
-  <Node Id="962" Class="Math:BooleanFrom" pos="-972,2772,0">
-   <Inputs Value="0"/>
+  <Node Id="963" Class="Debug:Log" pos="-1908,2628,0">
+   <Inputs message="[FlowgraphHook] OnLoadingStart"/>
+  </Node>
+  <Node Id="964" Class="Debug:Log" pos="-2250,1494,0">
+   <Inputs message="[FlowgraphHook] OnSystemStarted"/>
+  </Node>
+  <Node Id="969" Class="Logic:Condition" pos="-1026,2736,0">
+   <Inputs Condition="0"/>
+  </Node>
+  <Node Id="971" Class="Time:FrameDelay" pos="-1224,2736,0">
+   <Inputs />
+  </Node>
+  <Node Id="973" Class="Debug:Log" pos="-738,2988,0">
+   <Inputs message="[FlowgraphHook] SYS_Main was already started"/>
   </Node>
  </Nodes>
  <Edges>
@@ -295,6 +307,7 @@
   <Edge nodeIn="937" nodeOut="744" portIn="Set" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="939" nodeOut="744" portIn="Start" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="945" nodeOut="744" portIn="Set" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="964" nodeOut="744" portIn="input" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="837" nodeOut="818" portIn="Start" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="599" nodeOut="827" portIn="audioTrigger_PlayTrigger" portOut="Event" enabled="1"/>
   <Edge nodeIn="599" nodeOut="827" portIn="Play" portOut="onEvent" enabled="1"/>
@@ -305,7 +318,9 @@
   <Edge nodeIn="944" nodeOut="834" portIn="in1" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="886" nodeOut="885" portIn="Start" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="944" nodeOut="885" portIn="in2" portOut="onEvent" enabled="1"/>
+  <Edge nodeIn="963" nodeOut="885" portIn="input" portOut="onEvent" enabled="1"/>
   <Edge nodeIn="959" nodeOut="886" portIn="Trigger" portOut="OnEnd" enabled="1"/>
+  <Edge nodeIn="971" nodeOut="886" portIn="in" portOut="OnEnd" enabled="1"/>
   <Edge nodeIn="887" nodeOut="901" portIn="Start" portOut="OnFalse" enabled="1"/>
   <Edge nodeIn="930" nodeOut="901" portIn="Start" portOut="OnTrue" enabled="1"/>
   <Edge nodeIn="916" nodeOut="905" portIn="CondFalse" portOut="OnCall" enabled="1"/>
@@ -342,10 +357,12 @@
   <Edge nodeIn="948" nodeOut="947" portIn="Send" portOut="CurValue" enabled="1"/>
   <Edge nodeIn="950" nodeOut="949" portIn="Send" portOut="CurValue" enabled="1"/>
   <Edge nodeIn="951" nodeOut="954" portIn="Start" portOut="onEvent" enabled="1"/>
-  <Edge nodeIn="962" nodeOut="959" portIn="Value" portOut="OutValue" enabled="1"/>
-  <Edge nodeIn="955" nodeOut="962" portIn="Start" portOut="False" enabled="1"/>
-  <Edge nodeIn="956" nodeOut="962" portIn="input" portOut="False" enabled="1"/>
-  <Edge nodeIn="958" nodeOut="962" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="969" nodeOut="959" portIn="Condition" portOut="OutValue" enabled="1"/>
+  <Edge nodeIn="955" nodeOut="969" portIn="Start" portOut="OnFalse" enabled="1"/>
+  <Edge nodeIn="956" nodeOut="969" portIn="input" portOut="OnFalse" enabled="1"/>
+  <Edge nodeIn="958" nodeOut="969" portIn="Trigger" portOut="OnFalse" enabled="1"/>
+  <Edge nodeIn="973" nodeOut="969" portIn="input" portOut="OnTrue" enabled="1"/>
+  <Edge nodeIn="969" nodeOut="971" portIn="In" portOut="out" enabled="1"/>
  </Edges>
  <GraphTokens>
   <Token Name="sys_main_started" Type="6"/>

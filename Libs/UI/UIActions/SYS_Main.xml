@@ -1,4 +1,4 @@
-<Graph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+<Graph Description="" Group="flowgraph_hook" enabled="1" MultiPlayer="ClientServer">
  <Nodes>
   <Node Id="100000" Class="UI:Action:Start" pos="0,-150,0">
    <Inputs UseAsState="1"/>
